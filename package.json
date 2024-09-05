@@ -4,14 +4,13 @@
   "description": "Recipe application",
   "scripts": {
     "start": "parcel index.html",
-    "build": "npm install -g parcel-bundler && parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Meet Vora",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.12.0"
   },
   "dependencies": {
     "core-js": "^3.38.1",
